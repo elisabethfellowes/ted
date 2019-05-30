@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+  <!-- <link rel="stylesheet" type="text/css" href="css/"> -->
+  <link rel= "stylesheet" type= "text/css" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Cormorant%20Garamond' rel='stylesheet'>
+  <title>Who We Are</title>
+
+<script>
+function topnavfunc() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+</head>
+
+<body>
+
+<header>
+  <a href="#content" class="skip">Skip to content</a>
+  <div class = "topnav" id="myTopnav">
+
+      <a href = "index.html" >Home</a>
+      <a href = "whoweare.html" >Who We Are</a>
+      <a href = "whatwedo.html" class = "active">What We Do</a>
+      <a href = "contact.html">Contact</a>
+      <a href="javascript:void(0);" class="icon" onclick="topnavfunc()" aria-label="hamburger">
+    <i class="fa fa-bars"></i>
+  </a>
+
+  </div>
+</header>
+
+<main id="content">
+
+  <img src="images/logoshort.png" alt = "FRGI logo">
+
+  <div class = "parallax">
+  <div class = "text-box"><h2>This is a tagline</h2>
+  </div>
+
+  </div>
+
+
+
+
+
+</main>
+
+<footer>
+
+  <img src="images/browsericon.png" class = "image3" alt = "Kate's icon">
+  <a href="https://www.instagram.com/drkaty.plasticsurgery/" class="fa fa-instagram" aria-label="instagram"></a>
+  <a href="mailto:k.a.grunzweig@gmail.com" class="fa fa-envelope" aria-label="email"></a>
+
+</footer>
+</body>
+</html>
