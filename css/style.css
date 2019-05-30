@@ -454,7 +454,7 @@ h1{
       transform: rotateY(180deg);
     }
     .parallax {
-      background-image: url("../images/grass.jpg");
+      background-image: url("../images/gears.jpg");
       background-attachment: fixed;
       height: 500px;
       width: 100%;
